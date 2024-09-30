@@ -2,6 +2,10 @@ import streamlit as st
 import pandas as pd
 from st_btn_select import st_btn_select
 
+def wide_space_default():
+st.set_page_config(layout=“wide”)
+
+wide_space_default()
 
 # Title and ID
 st.markdown("<br><br><br>", unsafe_allow_html=True)  # Add three line breaks
