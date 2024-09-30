@@ -40,7 +40,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 st.markdown("""
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
   <a class="navbar-brand" href="#">
-    <img src="https://raw.githubusercontent.com/manubindra/TrueRender3D/main/TRUE%20RENDER%20LOGO%20(1).png" alt="Logo">  <!-- Replace with your image URL -->
+    <img src="https://raw.githubusercontent.com/manubindra/TrueRender3D/main/TRUE%20RENDER%20LOGO%20(1).png">  <!-- Replace with your image URL -->
     TrueRender 3D
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
