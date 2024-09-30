@@ -38,13 +38,16 @@ st.markdown(custom_css, unsafe_allow_html=True)
 
 # Navigation bar HTML with image and link to Home section
 st.markdown("""
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: black;">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
   <a class="navbar-brand" href="#">
-    <img src="https://github.com/manubindra/TrueRender3D/blob/main/TRUE%20RENDER%20LOGO%20(1).png>  <!-- Replace with your image URL -->
+    <img src="https://raw.githubusercontent.com/manubindra/TrueRender3D/main/TRUE%20RENDER%20LOGO%20(1).png" alt="Logo">  <!-- Replace with your image URL -->
     TrueRender 3D
   </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
       </li>
