@@ -17,7 +17,7 @@ custom_css = """
 <style>
     .navbar {
         height: 80px;  /* Adjust the height as needed */
-        margin-top: 50px;  /* Adjust the top margin to position the navbar lower */
+        margin-top: 20px;  /* Adjust the top margin to position the navbar lower */
     }
     .navbar-brand, .nav-link {
         font-size: 24px;  /* Adjust the font size as needed */
@@ -29,6 +29,7 @@ custom_css = """
     .navbar-brand img {
         height: 50px;  /* Adjust the height of the image as needed */
         margin-right: 10px;  /* Adjust the space between the image and the text */
+        border-radius: 50%;  /* Make the image circular */
     }
 </style>
 """
@@ -40,7 +41,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 st.markdown("""
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
   <a class="navbar-brand" href="#">
-    <img src="https://raw.githubusercontent.com/manubindra/TrueRender3D/main/TRUE%20RENDER%20LOGO%20(1).png">  <!-- Replace with your image URL -->
+    <img src="https://raw.githubusercontent.com/manubindra/TrueRender3D/main/TRUE%20RENDER%20LOGO%20(1).png" alt="Logo">  <!-- Replace with your image URL -->
     TrueRender 3D
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,20 +66,9 @@ st.markdown("""
 </nav>
 """, unsafe_allow_html=True)
 
+st.markdown("<h2 style='text-align: center;font-weight: bold; color: black;'>TrueRender 3D - I.D - Aishwarya Jadhav</h2>", unsafe_allow_html=True)
 
-# JavaScript for smooth scrolling
-st.markdown("""
-<script>
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
-</script>
-""", unsafe_allow_html=True)
+
 
 # JavaScript for smooth scrolling
 st.markdown("""
