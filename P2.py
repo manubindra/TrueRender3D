@@ -1,9 +1,7 @@
 import streamlit as st
 import pandas as pd
-import hydralit as hy
 from st_btn_select import st_btn_select
 
-app = hy.HydraApp(title='Simple Multi-Page App')
 
 # Title and ID
 st.markdown("<h2 style='text-align: center;font-weight: bold; color: black;'>TrueRender 3D</h2>", unsafe_allow_html=True)
