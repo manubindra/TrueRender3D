@@ -1,7 +1,0 @@
-# .streamlit/config.toml
-
-[client]
-toolbarMode = "minimal"
-
-[ui]
-hideTopBar = true
