@@ -6,7 +6,6 @@ from st_btn_select import st_btn_select
 # Title and ID
 st.markdown("<br><br><br>", unsafe_allow_html=True)  # Add three line breaks
 st.markdown("<br><br><br>", unsafe_allow_html=True)  # Add three line breaks
-st.markdown("<h2 style='text-align: center;font-weight: bold; color: black;'>TrueRender 3D - I.D - Aishwarya Jadhav</h2>", unsafe_allow_html=True)
 
 
 # Inject Bootstrap CSS
@@ -67,7 +66,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("<h2 style='text-align: center;font-weight: bold; color: black;'>TrueRender 3D - I.D - Aishwarya Jadhav</h2>", unsafe_allow_html=True)
-
 
 
 # JavaScript for smooth scrolling
