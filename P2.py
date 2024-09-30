@@ -43,9 +43,6 @@ st.markdown("""
     <img src="https://github.com/manubindra/TrueRender3D/blob/main/TRUE%20RENDER%20LOGO%20(1).png>  <!-- Replace with your image URL -->
     TrueRender 3D
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
