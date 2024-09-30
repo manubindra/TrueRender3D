@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import os
 import hydralit as hy
 from st_btn_select import st_btn_select
 
