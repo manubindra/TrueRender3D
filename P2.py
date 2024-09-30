@@ -3,7 +3,7 @@ import pandas as pd
 from st_btn_select import st_btn_select
 
 def wide_space_default():
-st.set_page_config(layout="wide")
+    st.set_page_config(layout="wide")
 
 wide_space_default()
 
