@@ -4,8 +4,10 @@ from st_btn_select import st_btn_select
 
 
 # Title and ID
-st.markdown("<h2 style='text-align: center;font-weight: bold; color: black;'>TrueRender 3D</h2>", unsafe_allow_html=True)
-st.markdown("<h2 style='text-align: center; color: black;'>I.D - Aishwarya Jadhav</h2>", unsafe_allow_html=True)
+st.markdown("<br><br><br>", unsafe_allow_html=True)  # Add three line breaks
+st.markdown("<br><br><br>", unsafe_allow_html=True)  # Add three line breaks
+st.markdown("<h2 style='text-align: center;font-weight: bold; color: black;'>TrueRender 3D - I.D - Aishwarya Jadhav</h2>", unsafe_allow_html=True)
+
 
 # Inject Bootstrap CSS
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
@@ -15,6 +17,7 @@ custom_css = """
 <style>
     .navbar {
         height: 80px;  /* Adjust the height as needed */
+        margin-top: 50px;  /* Adjust the top margin to position the navbar lower */
     }
     .navbar-brand, .nav-link {
         font-size: 24px;  /* Adjust the font size as needed */
@@ -26,16 +29,6 @@ custom_css = """
     .navbar-brand img {
         height: 50px;  /* Adjust the height of the image as needed */
         margin-right: 10px;  /* Adjust the space between the image and the text */
-    }
-    /* Remove white space */
-    .main {
-        padding: 0 !important;
-    }
-    .block-container {
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
     }
 </style>
 """
