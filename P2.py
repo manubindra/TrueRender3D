@@ -27,6 +27,16 @@ custom_css = """
         height: 50px;  /* Adjust the height of the image as needed */
         margin-right: 10px;  /* Adjust the space between the image and the text */
     }
+    /* Remove white space */
+    .main {
+        padding: 0 !important;
+    }
+    .block-container {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 </style>
 """
 
